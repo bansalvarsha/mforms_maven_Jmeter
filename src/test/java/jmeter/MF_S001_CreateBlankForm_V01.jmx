@@ -245,14 +245,14 @@
                 <elementProp name="UserName" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">UserName</stringProp>
-                  <stringProp name="Argument.value">${__CSVRead(mFormsLogin.csv,0)}</stringProp>
+                  <stringProp name="Argument.value">vmidha@astegic.com</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
                 <elementProp name="Password" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">Password</stringProp>
-                  <stringProp name="Argument.value">${__CSVRead(mFormsLogin.csv,1)}</stringProp>
+                  <stringProp name="Argument.value">Astgeic1!</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
